@@ -2,11 +2,9 @@ using System;
 
 namespace Decorator
 {
-	public class CondimentDecorator
+	public abstract class CondimentDecorator : Beverage
 	{
-		public CondimentDecorator ()
-		{
-		}
+		public abstract string getDescription();
 	}
 }
 
